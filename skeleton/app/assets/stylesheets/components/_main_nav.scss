@@ -1,0 +1,55 @@
+.main-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 10px;
+  //background-color: yellow;
+}
+
+.left-nav > ul,
+.right-nav > ul {
+  display: flex;
+  margin: 10px;
+  font-family: arial;
+  font-size: 16px;
+  align-items: center;
+}
+
+#search-cogs {
+  font-size: 40px;
+}
+.left-nav {
+  
+  > ul {
+    > li {
+      padding-right: 10px;
+    }
+  }
+
+  span {
+    font-size: 20px;
+  }
+}
+
+.right-nav  {
+
+  > ul {
+
+    > li {
+      padding-left: 10px;
+    }
+
+    > li:last-of-type {
+      
+    }
+  }
+  
+  i {
+
+  }
+}
+
+.left-nav > ul > li:hover,
+.right-nav > ul > li:last-of-type:hover {
+  color: rgb(152, 152, 152);
+}

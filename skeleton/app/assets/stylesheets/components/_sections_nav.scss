@@ -1,0 +1,28 @@
+.sections_nav {
+
+    border-bottom: 1px solid $light-gray;
+    font-family: avenir;
+
+    ul {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 5px;
+        align-items: center;
+    }
+
+    li {
+        margin: 5px
+    }
+
+    a {
+        text-decoration: none;
+        padding: 3px;
+    }
+
+    a:hover {
+        background-color: rgb(218, 218, 218);
+        text-decoration: underline;
+    }
+
+}
